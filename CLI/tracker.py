@@ -1,5 +1,3 @@
-# TODO : Check url is valid or not
-# TODO : To send alert we can use AWS Lambda or wayscript (https://wayscript.com/)
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -23,6 +21,10 @@ def flipkart():
             sendAlert()
         else:
             print("does nothing")
+
+
+def amazon():
+    return pass
 
 
 def sendAlert():
